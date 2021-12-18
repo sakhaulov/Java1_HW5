@@ -13,8 +13,8 @@ public class Employee {
         this.age = age;
     }
 
-    public void printInfo() {
-        System.out.println("Информация о сотруднике "+this.full_name+"\n"+
+    public String getInfo() {
+        return("Информация о сотруднике "+this.full_name+"\n"+
                            "Должность: "+this.position+"\n"+
                            "Электронная почта: "+this.email+"\n"+
                            "Номер телефона: "+this.phone_number+"\n"+

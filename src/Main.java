@@ -17,7 +17,7 @@ public class Main {
     public static void printEmployeeInfo(Employee[] empArray) {
         for (Employee employee : empArray) {
             if (employee.getAge() > 40) {
-                employee.printInfo();
+                System.out.println(employee.getInfo());
             }
         }
     }
